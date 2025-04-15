@@ -735,7 +735,7 @@
     "m_ObjectId": "0766715e82074d319134f9e7b6494670",
     "m_Title": "Get Svreen Space Hatching Value",
     "m_Position": {
-        "x": -415.0000305175781,
+        "x": -415.0,
         "y": -942.0
     }
 }
@@ -1359,8 +1359,8 @@
     "m_ObjectId": "266eb32d65194c5b8285e8576e944282",
     "m_Title": "Create an Offset on a clock",
     "m_Position": {
-        "x": -1669.000244140625,
-        "y": -97.99992370605469
+        "x": -1669.0,
+        "y": -98.0
     }
 }
 
@@ -3365,8 +3365,8 @@
     "m_ObjectId": "a08465c3a84046febb89334536ec88ab",
     "m_Title": "Apply drawing strength",
     "m_Position": {
-        "x": 2698.000244140625,
-        "y": -802.0000610351563
+        "x": 2698.0,
+        "y": -802.0
     }
 }
 
