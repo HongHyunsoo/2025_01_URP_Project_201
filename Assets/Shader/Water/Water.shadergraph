@@ -88,9 +88,6 @@
             "m_Id": "11e81517b82b4282af9fda353422d921"
         },
         {
-            "m_Id": "0a5b05a8c03c40c0a0e548bd708a6aee"
-        },
-        {
             "m_Id": "c57234e3f2c84e4ca686ad54b92c92e5"
         },
         {
@@ -215,6 +212,9 @@
         },
         {
             "m_Id": "a09230ee61a1498c97f55e9155e586e5"
+        },
+        {
+            "m_Id": "03764759e6ea4e4090a0bc9bf8bce9dd"
         }
     ],
     "m_GroupDatas": [
@@ -256,7 +256,7 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "0a5b05a8c03c40c0a0e548bd708a6aee"
+                    "m_Id": "03764759e6ea4e4090a0bc9bf8bce9dd"
                 },
                 "m_SlotId": 0
             },
@@ -1174,6 +1174,42 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "03764759e6ea4e4090a0bc9bf8bce9dd",
+    "m_Group": {
+        "m_Id": "3e6dca737eed43eebfeed1d1add56839"
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -2747.0,
+            "y": 43.0,
+            "width": 152.0,
+            "height": 33.99999237060547
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "62a4f0998b9e4340becdb0102fd6f0c8"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "5fafc89386a74338a73c5aaa213fa7b1"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "055ebdbfaec64ee3bf198a480d894ecc",
     "m_Id": 1,
@@ -1227,7 +1263,7 @@
     "m_Title": "Combining Texture and Intersection Foam",
     "m_Position": {
         "x": -1333.0,
-        "y": -774.9998779296875
+        "y": -775.0
     }
 }
 
@@ -1255,42 +1291,6 @@
     },
     "m_Labels": [],
     "m_ScreenSpaceType": 0
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
-    "m_ObjectId": "0a5b05a8c03c40c0a0e548bd708a6aee",
-    "m_Group": {
-        "m_Id": "3e6dca737eed43eebfeed1d1add56839"
-    },
-    "m_Name": "Property",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -2751.999755859375,
-            "y": 55.99995040893555,
-            "width": 156.0,
-            "height": 34.00008010864258
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "a6f09a5974a341b4acd1ee23bcde7491"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Property": {
-        "m_Id": "c4dbe0cafd1a4b8d9b9b8efcc4cc174d"
-    }
 }
 
 {
@@ -2407,8 +2407,8 @@
     "m_ObjectId": "3f90b08898ec41d9878929fbc28caafc",
     "m_Title": "Dark Foam Voronoi Sample",
     "m_Position": {
-        "x": -1692.9998779296875,
-        "y": -1260.9998779296875
+        "x": -1693.0,
+        "y": -1261.0
     }
 }
 
@@ -2485,7 +2485,7 @@
     "m_Title": "Water Depth Color",
     "m_Position": {
         "x": -2091.0,
-        "y": 31.999755859375
+        "y": 32.0
     }
 }
 
@@ -3216,6 +3216,19 @@
 }
 
 {
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
+    "m_ObjectId": "62a4f0998b9e4340becdb0102fd6f0c8",
+    "m_Id": 0,
+    "m_DisplayName": "Flow Texture",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
+    "m_StageCapability": 3,
+    "m_BareResource": false
+}
+
+{
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
     "m_ObjectId": "63264c714fb440348090a41129b8ad6c",
@@ -3235,7 +3248,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.07500000298023224,
+    "m_Value": 0.007499999832361937,
     "m_FloatType": 0,
     "m_RangeValues": {
         "x": 0.0,
@@ -5038,19 +5051,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
-    "m_ObjectId": "a6f09a5974a341b4acd1ee23bcde7491",
-    "m_Id": 0,
-    "m_DisplayName": "Foam Texture",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_BareResource": false
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "ac53b5cfabcd42eaa5864cf8e4126711",
     "m_Id": 2,
@@ -5457,7 +5457,7 @@
     "m_ObjectId": "c0befc38eee54e88921be3cfab42701f",
     "m_Title": "Vertex Bobbing",
     "m_Position": {
-        "x": -1752.9998779296875,
+        "x": -1753.0,
         "y": -1900.0
     }
 }
@@ -6619,7 +6619,7 @@
     "m_Title": "Main Foam Voronoi Sample",
     "m_Position": {
         "x": -2326.0,
-        "y": -679.0001220703125
+        "y": -679.0
     }
 }
 
