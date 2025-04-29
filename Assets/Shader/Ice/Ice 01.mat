@@ -62,7 +62,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ice_Normal:
-        m_Texture: {fileID: 2800000, guid: 7c5184b7ed16a4748ac1d17bd54aa949, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0676d4b9d33aab04d8163a747c8f97e2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
