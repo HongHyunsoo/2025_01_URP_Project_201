@@ -1514,8 +1514,8 @@
     "m_ObjectId": "11f4c2b531bf42829ec0c750a6bdbfa6",
     "m_Title": "Normal Texture",
     "m_Position": {
-        "x": -124.99991607666016,
-        "y": 125.0
+        "x": -125.0,
+        "y": 125.00000762939453
     }
 }
 
@@ -2915,7 +2915,7 @@
     "m_Title": "Dot Product Calculation",
     "m_Position": {
         "x": -1899.9998779296875,
-        "y": -896.9998779296875
+        "y": -897.0
     }
 }
 
@@ -2970,7 +2970,7 @@
     "m_ObjectId": "5591cb1bab304241bfe5a9441c46e451",
     "m_Title": "Smoothneww Map",
     "m_Position": {
-        "x": -241.00006103515626,
+        "x": -241.0,
         "y": -500.0
     }
 }
@@ -4458,8 +4458,8 @@
     "m_ObjectId": "8c015155338141378bc0966d76131ec8",
     "m_Title": "Sample Texture + Base (Albedo) Color",
     "m_Position": {
-        "x": -887.0001220703125,
-        "y": -994.0001220703125
+        "x": -887.0,
+        "y": -994.0
     }
 }
 
